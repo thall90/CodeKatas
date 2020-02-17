@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKataTester", "CodeKataTester\CodeKataTester.csproj", "{F417DC57-3248-4DC0-A243-CFBFE2630311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKatas", "CodeKatas\CodeKatas.csproj", "{F417DC57-3248-4DC0-A243-CFBFE2630311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKataTests", "CodeKataTests\CodeKataTests.csproj", "{E408CB05-4CC8-40F5-8855-C8E87DB786AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{F417DC57-3248-4DC0-A243-CFBFE2630311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F417DC57-3248-4DC0-A243-CFBFE2630311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F417DC57-3248-4DC0-A243-CFBFE2630311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E408CB05-4CC8-40F5-8855-C8E87DB786AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E408CB05-4CC8-40F5-8855-C8E87DB786AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E408CB05-4CC8-40F5-8855-C8E87DB786AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E408CB05-4CC8-40F5-8855-C8E87DB786AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
