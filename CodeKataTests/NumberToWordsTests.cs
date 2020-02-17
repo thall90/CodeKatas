@@ -1,6 +1,5 @@
-using System.Dynamic;
-using CodeKataTester;
 using CodeKataTester.Katas;
+using FluentAssertions;
 using Xunit;
 
 namespace CodeKataTests
@@ -8,7 +7,7 @@ namespace CodeKataTests
     public class NumberToWordsTests
     {
         [Fact]
-        public void Test1()
+        public void Should_Convert_Given_Number_To_Words()
         {
             // Assemble
             const int intToConvert = 55;
@@ -17,9 +16,9 @@ namespace CodeKataTests
             var result = intToConvert.Convert();
 
             const string expectedResult = "fifty-five";
-            
+
             // Assert
-            Assert.Equal(expectedResult, result);
+            result.Should().Be(expectedResult);
         }
     }
 }

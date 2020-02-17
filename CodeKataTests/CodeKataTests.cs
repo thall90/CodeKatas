@@ -7,7 +7,7 @@ namespace CodeKataTests
     public class CodeKataTests
     {
         [Fact]
-        public void Trailing_Zeroes_Should_Return_Correct_Number_Of_Trailing_Zeroes()
+        public void Should_Return_Correct_Number_Of_Trailing_Zeroes()
         {
             const int numberToCalculate = 25;
 

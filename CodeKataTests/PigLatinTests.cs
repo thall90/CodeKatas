@@ -1,4 +1,5 @@
 using CodeKataTester;
+using FluentAssertions;
 using Xunit;
 
 namespace CodeKataTests
@@ -6,7 +7,7 @@ namespace CodeKataTests
     public class PigLatinTests
     {
         [Fact]
-        public void Test1()
+        public void Should_Convert_Given_String_To_PigLatin()
         {
             // Assemble
             const string stringToConvert = "My name is Ron Swanson";
@@ -17,7 +18,7 @@ namespace CodeKataTests
             const string expectedResult = "yMay amenay siay onRay wansonSay";
             
             // Assert
-            Assert.Equal(expectedResult, result);
+            result.Should().Be(expectedResult);
         }
     }
 }

@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using CodeKataTester;
+using FluentAssertions;
 using Xunit;
 
 namespace CodeKataTests
@@ -6,11 +8,23 @@ namespace CodeKataTests
     public class SumStringsAsNumbersTests
     {
         [Fact]
-        public void Test1()
+        public void Should_Correctly_Calculate_Sums_Of_Number_String_Pairs()
         {
-            Assert.Equal("579", SumStringsAsNumbers.SumStrings("123", "456"));
-            Assert.Equal("20", SumStringsAsNumbers.SumStrings("15", "5"));
-            Assert.Equal("2500000", SumStringsAsNumbers.SumStrings("1500000", "1000000"));
+            var results = new List<string>
+            {
+                SumStringsAsNumbers.SumStrings("123", "456"),
+                SumStringsAsNumbers.SumStrings("15", "5"),
+                SumStringsAsNumbers.SumStrings("1500000", "1000000"),
+            };
+
+            var expectedResults = new List<string>
+            {
+                "579",
+                "20",
+                "2500000",
+            };
+
+            results.Should().BeEquivalentTo(expectedResults);
         }
     }
 }
