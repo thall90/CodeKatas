@@ -1,7 +1,7 @@
 using System;
 using System.Numerics;
 
-namespace CodeKataTester
+namespace CodeKatas.Katas
 {
     public static class SumStringsAsNumbers
     {

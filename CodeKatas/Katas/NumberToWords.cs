@@ -1,6 +1,6 @@
 using System;
 
-namespace CodeKataTester.Katas
+namespace CodeKatas.Katas
 {
     public static class NumberToWords
     {

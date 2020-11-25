@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using CodeKataTester;
+using CodeKatas.Katas;
 using FluentAssertions;
 using Xunit;
 

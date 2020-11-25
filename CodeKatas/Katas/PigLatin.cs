@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace CodeKataTester
+namespace CodeKatas.Katas
 {
     public static class PigLatin
     {

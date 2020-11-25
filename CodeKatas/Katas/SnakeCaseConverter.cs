@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace CodeKataTester.Katas
+namespace CodeKatas.Katas
 {
     public static class SnakeCaseConverter
     {

@@ -1,4 +1,4 @@
-using CodeKataTester.Katas;
+using CodeKatas.Katas;
 using FluentAssertions;
 using Xunit;
 

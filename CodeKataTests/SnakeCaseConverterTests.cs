@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-using CodeKataTester;
-using CodeKataTester.Katas;
+using CodeKatas.Katas;
 using FluentAssertions;
 using Xunit;
 

@@ -1,4 +1,4 @@
-namespace CodeKataTester.Katas
+namespace CodeKatas.Katas
 {
     public class TrailingZeroes
     {

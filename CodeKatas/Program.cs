@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CodeKataTester
+﻿namespace CodeKatas
 {
     public class Program
     {

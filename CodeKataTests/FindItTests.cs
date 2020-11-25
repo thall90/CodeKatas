@@ -1,5 +1,4 @@
 using CodeKatas.Katas;
-using CodeKataTester.Katas;
 using Xunit;
 
 namespace CodeKataTests
