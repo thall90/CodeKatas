@@ -6,6 +6,13 @@ namespace CodeKatas.Katas
 {
     public static class CodeKatas
     {
+        public static string TraverseStates(string[] events)
+       {
+           var state = "CLOSED"; // initial state, always
+                                 // Your code here!
+           return state;
+       }
+       
         public static int TrailingZeroes(this int n)
         {
             var zeroCount = 0;
@@ -77,6 +84,8 @@ namespace CodeKatas.Katas
             {
                 return false;
             }
+
+            return true;
         }
 
         public static int ToInt(this string s)

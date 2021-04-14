@@ -2,13 +2,6 @@
 	<s:Boolean x:Key="/Default/CodeStyle/Naming/CSharpAutoNaming/IsNotificationDisabled/@EntryValue">True</s:Boolean>
 	<s:Int64 x:Key="/Default/CodeStyle/Naming/CSharpAutoNaming/AutoNamingCompletedVersion/@EntryValue">2</s:Int64>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8e126fa9_002D1bc7_002D4617_002D8b91_002D0b7710b6c604/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Correctly_Identify_Whether_Number_Is_Palindrome" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.Should_Correctly_Identify_Whether_Number_Is_Palindrome&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.Should_Correctly_Convert_Roman_Input_To_Int&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.derp&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.Should_Correctly_Remove_Vowels_From_String&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.Should_Correctly_Calculate_Running_Sum&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::E408CB05-4CC8-40F5-8855-C8E87DB786AB::.NETCoreApp,Version=v5.0::CodeKataTests.CodeKataTests.Should_Correctly_Shuffle_Array&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Katas/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
