@@ -97,19 +97,5 @@ namespace CodeKataTests
 
             result.Should().BeEquivalentTo(expectedResult, x => x.WithStrictOrdering());
         }
-
-        [Theory]
-        [InlineData(new[] {"ab", "c"}, new[] {"a", "bc"}, true)]
-        [InlineData(new[] {"a", "cb"}, new[] {"ab", "c"}, false)]
-        [InlineData(new[] {"abc", "d", "defg"}, new[] {"abcddefg"}, true)]
-        public void Should_Correctly_Determine_Equivalence(
-            string[] word1,
-            string[] word2,
-            bool expectedResult)
-        {
-            var result = CodeKatas.Katas.CodeKatas.ArrayStringsAreEqual(word1, word2);
-
-            result.Should().Be(expectedResult);
-        }
     }
 }

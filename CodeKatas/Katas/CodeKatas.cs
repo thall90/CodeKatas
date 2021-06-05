@@ -89,19 +89,6 @@ namespace CodeKatas.Katas
         }
         
         private static HashSet<char> vowels = new HashSet<char> { 'a', 'e', 'i', 'o', 'u' };
-        
-        public static bool ArrayStringsAreEqual(string[] word1, string[] word2)
-        {
-            var word1Chars = word1.SelectMany(x => x).OrderBy(x => x).ToArray();
-            var word2Chars = word2.SelectMany(x => x).OrderBy(x => x).ToArray();
-
-            if (word1Chars.Length != word2Chars.Length)
-            {
-                return false;
-            }
-
-            return true;
-        }
 
         public static int ToInt(this string s)
         {
