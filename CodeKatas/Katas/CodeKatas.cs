@@ -6,12 +6,27 @@ namespace CodeKatas.Katas
 {
     public static class CodeKatas
     {
-        public static string TraverseStates(string[] events)
-       {
-           var state = "CLOSED"; // initial state, always
-                                 // Your code here!
-           return state;
-       }
+        public static bool IsIsogram(this string str)
+        {
+            var letterSet = new HashSet<char>();
+
+            if (str.Equals(string.Empty))
+            {
+                return true;
+            }
+
+            foreach (var character in str.ToLowerInvariant())
+            {
+                if (letterSet.Contains(character) || !char.IsLetter(character))
+                {
+                    return false;
+                }
+
+                letterSet.Add(character);
+            }
+
+            return true;
+        }
        
         public static int TrailingZeroes(this int n)
         {

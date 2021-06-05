@@ -13,6 +13,24 @@ namespace CodeKataTests
         {
             this.outputHelper = outputHelper;
         }
+        
+        [Theory]
+        [InlineData("", true)]
+        [InlineData("Dermatoglyphics", true)]
+        [InlineData("aba", false)]
+        [InlineData("moOse", false)]
+        [InlineData("isogram", true)]
+        [InlineData("isIsogram", false)]
+        [InlineData("moose", false)]
+        [InlineData("thumbscrewjapingly", true)]
+        public void Should_Correctly_Identify_Whether_String_Is_Isogram(
+            string input,
+            bool expectedResult)
+        {
+            var result = input.IsIsogram();
+
+            result.Should().Be(expectedResult);
+        }
 
         [Fact]
         public void Should_Return_Correct_Number_Of_Trailing_Zeroes()
